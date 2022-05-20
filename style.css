@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+/*header */
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    flex: 1 0 auto;
+    padding: 32px;
+    font-size: large;
+    height: 100%;
+    height: 100vh;
+}
+.header-line1{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.header-logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.header-links{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-bold-line{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+   
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #2882f6;
+    color: #f9faf8;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+
+img{
+    width: 500px;
+    height: 350px;
+}
+
+.header-body{
+    display: flex;
+    margin-top: 100px;
+}
+
+.header-body1{
+    margin-left: 50px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+}
+.p-content{
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.card{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card img{
+    height: 200px;
+    width:250px;
+    border-radius: 15px;
+    
+}
+
+/* quote div */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #e5e7eb;
+}
+
+.quote p{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.p2{
+   font-size: 20px;
+   font-weight: bold;
+    margin-left: 400px;
+}
+
+/* sign-up div */
+.signup{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: #2882f6;
+    width: 400px;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+}
+.box-text-p1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-text-p2{
+    margin-top:0 ;
+}
+
+.signupbutton{
+    margin-top: 50px;
+}
